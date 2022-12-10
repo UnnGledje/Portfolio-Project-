@@ -44,7 +44,7 @@ In this project i built a thermometer to be able to log the temperature in my ho
   
  # 8. 
  
-  To visualize and analyze the data I choose another AWS service, AWS Quicksight. It's a tool that makes it very easy to display and sort       your data. 
+  To visualize and analyze the data I choose another Amazon Quicksight. It's a tool that makes it very easy to display and sort your data. 
  
  
   
