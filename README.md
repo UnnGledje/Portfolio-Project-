@@ -27,15 +27,15 @@ In this project i built a thermometer to be able to log the temperature in my ho
   
  # 4.
  
-  To be able to log the data it had to be saved somewhere. AWS has a database service called dynamoDB. DynamoDB is easy to integrate with the   rest of my project. To be able to send the data to dynamoDB i had to configure some other AWS services, to be specific an IoT rule and an     action. The rule says that every new message coming from the thing and publishing to our topic will trigger an action and that action will   send a message to be stored in dynamoDB.
+  To be able to log the data it had to be saved somewhere. AWS has a database service called dynamoDB. DynamoDB is easy to integrate with the   rest of my project. To be able to send the data to dynamoDB I had to configure some other AWS services, to be specific an IoT rule and an     action. The rule says that every new message coming from the thing and publishing to our topic will trigger an action and that action will   send a message to be stored in dynamoDB.
   
  # 5. 
  
-   The dynamoDB table created is used for both of our data sources. I will differentiate them with the help if an id and a timestamp. 
+   The dynamoDB table created is used for both of our data sources. I will differentiate them with the help of an id and a timestamp. 
  
  # 6. 
  
-  For this project i used an API from OpenWeatherMap. I choose an API that updates every ten minutes and with the help of my coordinates,
+  For this project I used an API from OpenWeatherMap. I choose an API that updates every ten minutes and with the help of my coordinates,
   my longtitude and latitude I was able to get measurements from my city. 
  
  # 7. 
