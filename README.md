@@ -30,18 +30,18 @@ In this project i built a thermometer to be able to log the temperature in my ho
   To be able to log the data it had to be saved somewhere. AWS has a database service called dynamoDB. DynamoDB is easy to integrate with the   rest of my project. To be able to send the data to dynamoDB I had to configure some other AWS services, to be specific an IoT rule and an     action. The rule says that every new message coming from the thing and publishing to our topic will trigger an action and that action will   send a message to be stored in dynamoDB.
   
  # 5. 
- 
-   The dynamoDB table created is used for both of our data sources. I will differentiate them with the help of an id and a timestamp. 
- 
- # 6. 
- 
+   
   For this project I used an API from OpenWeatherMap. I choose an API that updates every ten minutes and with the help of my coordinates,
   my longtitude and latitude I was able to get measurements from my city. 
+  
+ # 6. 
+ 
+  Firstly, I had to set up an API gateway to be able to use my API in AWS Cloud services. Secondly I created a lambda function in Node.js       16.x that makes an https request and sends the data to my dynamoDB table. Thirdly I created a schedule in AWS eventbridge that updates the   function call every ten minutes.
  
  # 7. 
  
-  Firstly, I had to set up an API gateway to be able to use my API in AWS Cloud services. Secondly I created a lambda function in Node.js       16.x that makes an https request and sends the data to my dynamoDB table. Thirdly I created a schedule in AWS eventbridge that updates the   function call every ten minutes.
-  
+  The dynamoDB table created is used for both of our data sources. I will differentiate them with the help of an id and a timestamp. 
+ 
  # 8. 
  
   To visualize and analyze the data I choose another Amazon Quicksight. It's a tool that makes it very easy to display and sort your data. 
