@@ -9,7 +9,8 @@ In this project i built a thermometer to be able to log the temperature in my ho
 
 # Flowchart
 
- file:///home/unn/Downloads/AWS_diagram.drawio%20(2).png
+![AWS_diagram drawio (2)](https://user-images.githubusercontent.com/92151619/206851988-18a50908-2368-4805-b181-4832bb97d403.png)
+
 
 # Components
 
