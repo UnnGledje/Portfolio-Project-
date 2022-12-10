@@ -1,9 +1,10 @@
 # Portfolio-Project-
-School Project 
+A fun School Project 
 
 
-# Description 
-My project 
+# About the project 
+
+In this project i built a thermometer to be able to log the temperature in my home. By using an API from OpenWeatherMap i can also log the temperatures outside. The whole usecase is built around AWS Cloud Services. 
 
 
 # Flowchart
