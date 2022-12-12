@@ -16,6 +16,7 @@ In this project i built a thermometer to be able to log the temperature in my ho
 
 # 1.
  To build the thermometer I used a DHT11 sensor that I connected to a RaspberryPi 3b+.
+ A DHT11 is a commonly used digital temperature and humidity sensor.
  
 # 2. 
 
@@ -33,6 +34,10 @@ In this project i built a thermometer to be able to log the temperature in my ho
    
   For this project I used an API from OpenWeatherMap. I choose an API that updates every ten minutes and with the help of my coordinates,
   my longtitude and latitude I was able to get measurements from my city. 
+  
+  API call :
+  
+  # https://api.openweathermap.org/data/2.5/weather?lat={lat-coord}&lon={lon-coord}&appid={API key}
   
  # 6. 
  
