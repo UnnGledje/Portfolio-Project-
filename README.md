@@ -46,7 +46,7 @@ In this project i built a thermometer to be able to log the temperature in my ho
   
   API call :
   
-  # https://api.openweathermap.org/data/2.5/weather?lat={lat-coord}&lon={lon-coord}&appid={API key}
+  # https://api.openweathermap.org/data/2.5/weather?lat={lat-coord}&lon={lon-coord}&appid={API-key}
   
  # 6. 
  
