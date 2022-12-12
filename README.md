@@ -23,6 +23,12 @@ In this project i built a thermometer to be able to log the temperature in my ho
   I wanted the pi to be able to send up the sensor data to AWS Cloud. To do this I wrote code that published messages to IoT Core through       MQTT. The pi retrieves the sensor data from the sensor and connects to AWS IoT and publishes to the defined topic. 
   
   # Publishing message to topic 'rpidht': Temperature : 22.0C Humidity : 28.0%
+  
+              rpidht
+              [
+                "Temperature: 22.0C",
+                "Humidity: 29.0%"
+              ]
 
   
 # 3. 
