@@ -1,5 +1,5 @@
 Make it work 
 
-In terminal, stand in the folder that your code and yor libraries are type:
+In terminal, stand in the folder that your code and your libraries are type:
 
-python3 rpi.py -topic {your-topic} --ca_file {path-to-rootCa1.pem} --cert {path-to-certificate-pem} --key {path-to-private.key} --endpoint {your-endpoint}
+python3 rpi.py -topic {your-topic} --ca_file {path-to-rootCa1.pem} --cert {path-to-certificate.pem} --key {path-to-private.key} --endpoint {your-endpoint}
