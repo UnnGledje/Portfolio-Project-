@@ -60,6 +60,11 @@ In this project i built a thermometer to be able to log the temperature in my ho
  
   To visualize and analyze the data I choose Amazon Quicksight. It's a tool that makes it very easy to display and sort your data. 
  
+ # Additional Notes 
+ 
+   This project is easy to scale up, either by adding more devices or more API calls.
+   IoT Core is configured in such a way that more devices can be added and DynamoDB can scale as needed.
+   The Lambda function can either be configured to make multiple api calls or to have multiple lambda functions perform.
  
   
 
