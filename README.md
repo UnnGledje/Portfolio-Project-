@@ -65,6 +65,10 @@ In this project i built a thermometer to be able to log the temperature in my ho
    This project is easy to scale up, either by adding more devices or more API calls.
    IoT Core is configured in such a way that more devices can be added and DynamoDB can scale as needed.
    The Lambda function can either be configured to make multiple api calls or to have multiple lambda functions perform.
+   
+   Regarding the security of this project, all communication is encrypted and certificate-based.
+   The hardware can also be secured by turning off ssh and changing the password regularly.
+   Login is required for AWS and Quicksight.
  
   
 
