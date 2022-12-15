@@ -70,6 +70,8 @@ In this project i built a thermometer to be able to log the temperature in my ho
    The hardware can also be secured by turning off ssh and changing the password regularly.
    Login is required for AWS and Quicksight.
  
+   This project uses a warm path and saves data in one DynamoDB table with a ttl of three months. For longer and more extensive storage, i.e for more data and
+   a longer ttl a cold path leading to long-term storage could be used. The option of saving stored data to file also exists. 
   
 
   
